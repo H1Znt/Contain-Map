@@ -1,0 +1,32 @@
+{
+  "name": "contain-set",
+  "version": "1.0.0",
+  "description": "---",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --open --mode development",
+    "build": "webpack --mode production",
+    "test": "jest ./src",
+    "coverage": "jest ./src --coverage",
+    "lint": "eslint ."
+  },
+  "author": "andrey_maximov",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.25.7",
+    "@babel/core": "^7.25.8",
+    "@babel/preset-env": "^7.25.8",
+    "babel-loader": "^9.2.1",
+    "eslint": "^8.50",
+    "eslint-plugin-jest": "^28.8.3",
+    "html-loader": "^5.1.0",
+    "html-webpack-plugin": "^5.6.2",
+    "jest": "^29.7.0",
+    "webpack": "^5.95.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.1.0"
+  },
+  "dependencies": {
+    "core-js": "^3.38.1"
+  }
+}
